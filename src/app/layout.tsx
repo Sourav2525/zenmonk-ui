@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ResponsiveAppBar from "@/components/layouts/header";
 import Providers from "@/components/progressbar-provider";
-import ThemeProviderWrapper from "@/theme/ThemeProvider";
+import ThemeProviderWrapper from "@/theme/theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 

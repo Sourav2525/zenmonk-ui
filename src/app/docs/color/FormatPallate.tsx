@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 
 import ColorPalette from "@/app/docs/color/ColorPallete";
 import { CopyButton } from "@/components/ui/CopyButton";
-import { colors } from "@/theme/Theme";
+import { colors } from "@/theme/theme";
 const themePallete = {
     primary: {
         light: colors.primary[50],
