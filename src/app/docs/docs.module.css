@@ -1,0 +1,29 @@
+.link {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.link:hover {
+  text-decoration: underline !important;
+}
+
+.sidebarBox {
+  overflow: auto;
+  height: calc(100vh - 65px);
+}
+
+.sidebarBox ::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.sidebarBox ::-webkit-scrollbar-thumb{
+    visibility: hidden;
+}
+
+.sidebarBox:hover ::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+/* .sidebarBox:hover::-webkit-scrollbar-thumb {
+    background-color: black !important;
+} */
